@@ -1,0 +1,19 @@
+.section {
+    border-radius: 15px;
+    padding: 20px;
+    margin: 40px;
+}
+
+.section-top{
+    padding-top: 40px;
+}
+
+
+.section-filler{
+    padding:40px;
+    border-bottom: 2px solid rgb(170, 185, 199);
+    border-bottom-width: thin;
+    display:flex;
+    margin-left: 10%;
+    margin-right:10%;
+}

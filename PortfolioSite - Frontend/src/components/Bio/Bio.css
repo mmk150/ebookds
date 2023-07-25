@@ -1,0 +1,10 @@
+.bio-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background:rgb(27, 28, 29);
+}
+
+.bio-snippet {
+    background:rgb(27, 28, 29);
+}

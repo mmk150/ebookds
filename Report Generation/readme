@@ -1,0 +1,6 @@
+cat_organizer takes as inputs CSV's which are named via M_D_YY.csv.
+It returns a csv giving the summary statistics of the first csv organized by category. This new csv will be named cat_M_D_YY.csv.
+
+report_gen takes two of these cat_M_D_YY.csv's as input, one as the report for this week and one as the report for a previous week. It then generates a pdf report
+titled report_(previous date) - (current date).csv
+This report gives summary statistics and various charts regarding this week's data as well as changes from the previous week chosen in the report.

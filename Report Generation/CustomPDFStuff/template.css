@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:2in;
+}
+
+table {
+    width: 1000px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+th {
+    background-color: #5212a5;
+    color: white;
+    text-align: left;
+    width: 10px;
+    padding:10px;
+    max-width: 10px;
+}
+
+td {
+    border: 1px solid #ddd;
+    width: 10px;
+    padding:4px;
+    max-width: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr {
+    width: 60px;
+}

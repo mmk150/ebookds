@@ -1,0 +1,23 @@
+.container {
+    height:400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background: rgb(27, 28, 29);
+}
+/* linear-gradient(90deg, rgb(44, 44, 47) 0%, rgb(0, 0, 0) 100%) */
+
+.left-banner {
+    width: 50%;
+    background: rgb(27, 28, 29);
+    /* Add more styles for the left banner */
+}
+
+.right-banner {
+    width: 50%;
+    background: rgb(27, 28, 29);
+    /* Add more styles for the right banner */
+}
